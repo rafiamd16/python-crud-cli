@@ -40,13 +40,13 @@ if __name__ == "__main__":
             case "2":
                 CRUD.create_console()
             case "3":
-                print("Update Data")
+                CRUD.update_console()
             case "4":
                 print("Delete Data")
             case _:
                 print("Tidak ada opsi tersebut")
 
-        is_done = input("Apakah sudah selesai? (y/n): ")
+        is_done = input("\nApakah sudah selesai? (y/n): ")
         if is_done == "y" or is_done == "Y":
             break
 
