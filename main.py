@@ -42,7 +42,7 @@ if __name__ == "__main__":
             case "3":
                 CRUD.update_console()
             case "4":
-                print("Delete Data")
+                CRUD.delete_console()
             case _:
                 print("Tidak ada opsi tersebut")
 
